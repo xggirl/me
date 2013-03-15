@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, body {
+	padding:0; 
+	margin:0; 
+	background-color:#333; 
+	font-family: Helvetica,Arial,sans-serif; 
+	font-size:15px; 
+	line-height:16px;
+	}
+	
+#wrapper{
+	}
+
+#container{
+	width:980px;
+	background-color:#FFF;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom:30px;
+	height: 1300px;
+
+}
+
+#header{
+	text-align:center;
+	padding-bottom: 8px;
+}
+
+#nav{
+	float:left;
+	width: 175px;
+	padding-left: 20px;
+}
+
+#right{
+	float: right;
+	width: 760px;
+	padding-right: 12px;
+}
+
+#p1{
+	text-align:left;
+	font-weight:600;
+	font-size: 15px;
+	line-height: 10px;
+}
+
+.name{
+	font-size:14px;
+	line-height: 16px;
+	font-style:italic;
+	font-weight:300;
+}
+
+#first{
+	padding-bottom: 5px;
+}
+
+#third{
+	padding-bottom: 80px;
+	background-color:#FFF;
+	height:100%;}
+
+.post{
+	font-size: 12px;
+	text-align:right;
+	line-height: 12px;
+	padding-top:5px;
+	padding-bottom: 6px;
+	margin-right:12px;
+	border-bottom: solid #CCCCCC;
+	border-bottom-width: 1px;
+	margin-bottom: 30px;
+}
+
+.box{
+	background-color:#E3E3E3;
+	width:745px;
+	height: 70px;
+	float:right;
+	text-indent: 30px;
+	padding-top: 5px;
+	margin-bottom: 40px;
+	margin-right: 15px;
+}
+
+p.answer{
+	font-size:15px;
+}
+
+p.small{
+	font-size:10px;
+	margin-bottom: -10px;
+}
+
+ul{
+	text-align:left;
+	padding-bottom: 60px;
+	padding-left:12px;
+}
+
+li{
+	list-style:none;
+	font-size:15px;
+	line-height:22px;
+}
+
+
+h1{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 32px;
+}
+
+h2{
+	font-size:21px;
+	line-height:16px;
+}
+
+.photo{
+	width: 200px;
+	float: right;
+	margin: 16px 15px 0 20px;
+	padding: 12px;
+	border-radius:6px;
+	border: thin silver solid;
+	background-color:#FFE;
+	}
+
+p.caption {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;	
+	text-indent: 0;
+	padding: 3px 0 0px 0;
+}
+
+p.validate{
+	text-align:right;
+	font-size: 10px;
+	padding-right: 15px;
+}
+
+span{color:#F00;}
+
+p{
+	font-size:15px;
+	line-height: 18px;
+}
+
+
+a:visited{
+	color:#00F;
+}
